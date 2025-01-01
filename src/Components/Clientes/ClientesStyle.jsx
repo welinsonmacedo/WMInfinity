@@ -11,13 +11,19 @@ export const Container = styled.div`
   max-width: 1000px;
   margin: 30px auto;
   color: #333;
+  @media (max-width: 768px) {
+
+
+    max-width: 90%;
+  
+  }
 `;
 export const ContainerContent = styled.div`
   @media (max-width: 768px) {
    display:flex;
    flex-direction: column;
 
-    width: auto;
+    width: 90%;
   
   }
 `;
@@ -55,6 +61,9 @@ export const ClientImage = styled.img`
   border-radius: 10%;
   margin-bottom: 20px;
   object-fit:contain;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
 `;
 
 // Informações do cliente
