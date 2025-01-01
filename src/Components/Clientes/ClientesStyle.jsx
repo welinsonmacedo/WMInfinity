@@ -4,17 +4,16 @@ import styled from 'styled-components';
 export const Container = styled.div`
   font-family: Arial, sans-serif;
   text-align: center;
-  padding: 40px;
+  padding: 10px;
   background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  max-width: 1000px;
-  margin: 30px auto;
+  max-width: 100%;
   color: #333;
   @media (max-width: 768px) {
 
 
-    max-width: 90%;
+  
   
   }
 `;
@@ -22,8 +21,8 @@ export const ContainerContent = styled.div`
   @media (max-width: 768px) {
    display:flex;
    flex-direction: column;
-
-    width: 90%;
+padding:15px;
+    width: 100%;
   
   }
 `;
