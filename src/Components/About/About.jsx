@@ -15,7 +15,7 @@ const About = () => {
       </Paragraph>
 
       <Paragraph>
-        A WM Digital é mais do que uma agência digital. Somos parceiros estratégicos no seu crescimento online.
+        A WM Infinity é mais do que uma agência digital. Somos parceiros estratégicos no seu crescimento online.
         Nossa missão é entregar resultados reais e impactantes, proporcionando uma experiência personalizada
         e soluções inovadoras que atendem às necessidades específicas de cada cliente.
       </Paragraph>
