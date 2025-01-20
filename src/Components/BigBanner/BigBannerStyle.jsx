@@ -26,6 +26,11 @@ export const BannerContent = styled.div`
   display:flex;
   align-items:center;
   gap:3rem;
+    @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
 `;
 
 export const BannerTitle = styled.h1`
@@ -85,6 +90,6 @@ export const Image=styled.img`
 width:400px;
 
 @media (max-width: 768px) {
-  width:100px;
+  width:240px;
   }
 `
