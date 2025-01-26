@@ -74,7 +74,7 @@ const SubmitButton = styled.button`
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-
+width:100%;
   &:hover {
     background-color: #47a18d;
   }
@@ -98,16 +98,16 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Enviar os dados para o EmailJS
+   
     emailjs.send(
-      'service_ydotiqh', // Substitua pelo seu ID de serviço EmailJS
-      'template_3t0881i', // Substitua pelo ID do modelo que você criou
-      formData, // Os dados do formulário (name, email, message)
-      'T06G2lCALXzpmelqC' // Substitua pelo seu ID de usuário do EmailJS
+      'service_ydotiqh', 
+      'template_3t0881i', 
+      formData, 
+      'T06G2lCALXzpmelqC' 
     )
     .then((response) => {
       console.log('Sucesso:', response.status, response.text);
-      // Limpar o formulário após o envio
+
       setFormData({
         name: '',
         email: '',

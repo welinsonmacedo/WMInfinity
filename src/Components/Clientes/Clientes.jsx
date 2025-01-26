@@ -23,8 +23,30 @@ const clients = [
     imageUrl: "./professorajulice.png",
     websiteUrl: "https://www.instagram.com/professora_julice/"
   },
-  // Adicione mais clientes conforme necessário
+  {
+    id: 4,
+    name: "Consultório Odontológico Dra. Vânia Teles Rocha",
+    category: "Site / Institucional",
+    imageUrl: "./drvaniateles.png",
+    websiteUrl: "https://dravaniatelesrocha.com.br/"
+  },
+  {
+    id: 5,
+    name: "AC Ângela Campos",
+    category: "Site / Catálago",
+    imageUrl: "./acangelacampos.png",
+    websiteUrl: "https://ac-catalog-4dlv.vercel.app/"
+  },
+  {
+    id: 5,
+    name: "Financial Manager",
+    category: "Sistema Web",
+    imageUrl: "./financialmanager.png",
+    websiteUrl: "https://financial-manager-plum.vercel.app/"
+  },
+ 
 ];
+
 
 const Clientes = () => {
   const handleClick = (url) => {
