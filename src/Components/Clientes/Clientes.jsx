@@ -44,6 +44,13 @@ const clients = [
     imageUrl: "./financialmanager.png",
     websiteUrl: "https://financial-manager-plum.vercel.app/"
   },
+{
+  id: 6,
+  name: "Oficina do Celular Mobile Tech",
+  category: "Site Institucional",
+  imageUrl: "./oficinadocelular.png",
+  websiteUrl: "https://oficinadocelularmobiletech.com.br/"
+},
  
 ];
 
